@@ -1,0 +1,193 @@
+* {
+    box-sizing:border-box;
+}
+
+html {
+    background-image: url("./images/wallpaper.jpg");
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    text-align: center;
+    color:#fff;
+    height:180px;
+    padding-top:20px;
+    font-size:23px;
+    font-family: 'Honk', system-ui;
+    background-size:contain;
+    background-attachment:fixed;
+    width:100%;
+}
+
+nav {
+    background-color: crimson;
+    text-align: center;
+}
+
+nav ul li {
+    display:inline;
+}
+
+nav ul li a {
+    color:#fff;
+    text-decoration:none;
+    font-size:23px;
+}
+
+nav ul li a:hover {
+    color:#ff6c6c;
+    text-decoration:none;
+}
+
+footer {
+    text-align: center;
+    background-color: darkmagenta;
+    color:#fff;
+    font-size:23px;
+    clear:both;
+}
+
+.left {
+    border:0.5px solid grey;
+    float:left;
+    width: 33.33%;
+}
+
+.middle {
+    border:0.5px solid grey;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 33.33%;
+}
+
+.right {
+    border:0.5px solid grey;
+    float:right;
+    width: 33.33%;
+}
+
+.left, .middle, .right {
+    padding:4px;
+}
+
+.mainbuffet {
+    width:100%;
+    max-width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.mainCard {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    height:200px;
+}
+
+.section-title {
+    text-align:center;
+}
+
+.album-img {
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    border-radius:50px;
+}
+
+.album-titles {
+    text-align:center;
+    font-size:23px;
+}
+
+input {
+    display:block;
+    margin:auto;
+    padding:8px;
+    margin-top:5px;
+}
+
+.submit {
+    background-color:bisque;
+    border:0.5px solid rgb(85, 45, 8);
+    width:90px;
+    border-radius:35px;
+}
+
+.text-area {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+}
+
+.inline {
+    display:inline;
+    width:400px;
+}
+
+.button-order {
+    display:block;
+    background-color: rgb(216, 159, 89);
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.button-order:hover {
+    display:block;
+    background-color: crimson;
+    color:#fff;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.logo {
+    width:100px;
+    height:100px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.columnLeft {
+    border:0.5px solid grey;
+    width:50%;
+    float:left;
+    text-align: center;
+    height:400px;
+}
+
+.columnRight {
+    border:0.5px solid grey;
+    width:50%;
+    float:right;
+    text-align: center;
+    height: 400px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.wrapper {
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    border:0.5px solid grey;
+    background-color: cornsilk;
+}
